@@ -22,14 +22,16 @@ class Palindrome{
 
 		         reverse = reverse + original.charAt(i);  
 
-		      if (original.equals(reverse))  
+		      if (original.equals(reverse))  {
 
-		         System.out.println("Entered string/number is a palindrome.");  
+			         System.out.println("Entered string/number is a palindrome.");  
+		}
 
-		      else  
+		      else  {
 
-		         System.out.println("Entered string/number isn't a palindrome.");   
+			         System.out.println("Entered string/number isn't a palindrome.");   
 
-		   }  
+			   }  
 
-}  
+	}  
+}
